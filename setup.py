@@ -11,7 +11,7 @@ setup(
     url="http://campaignmonitor.github.io/createsend-python/",
     license="MIT",
     keywords="createsend campaign monitor email",
-    packages=['createsend', 'createsend.utils'],
+    packages=['createsend'],
     package_data={'createsend': ['cacert.pem']},
-    install_requires=['six'],
+    install_requires=['six', 'createsend.utils'],
 )
