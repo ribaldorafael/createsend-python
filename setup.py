@@ -13,5 +13,5 @@ setup(
     keywords="createsend campaign monitor email",
     packages=['createsend'],
     package_data={'createsend': ['cacert.pem']},
-    install_requires=['six', 'createsend.utils'],
+    install_requires=['six', 'createsend.utils']
 )
